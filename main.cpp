@@ -6,7 +6,6 @@ using namespace std;
 
 // given placement of letters and letters that are contained in the word but NOT in that place
 // return/print list of words that this word could be
-// enter into console e.g. LO___ then ___RE
 
 Vector<char> greenLetters =  {' ', 'o', ' ', ' ', 'y'};
 Vector<Vector<char>> yellowLetters =  {{' ', ' ', ' ', 'h', ' '}, {' ', ' ', ' ', ' ', ' '}};
